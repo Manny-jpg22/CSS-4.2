@@ -1,14 +1,30 @@
+* {
+  box-sizing: border-box;
+}
 
 #main-title {
   color: purple;
   text-align: center;
-}
-
-.card {
-  background-color: lightgray;
+  border: 2px solid purple;
+  border-radius: 10px;
   padding: 10px;
 }
 
+.card {
+  background-color: rgb(211, 205, 205);
+  width: 80%;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+}
+
+.card:first-of-type {
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+.card:last-of-type{
+  border: 2px solid blue;
+  border-radius: 10px;
+}
 .card-heading {
   color: blue;
 }
